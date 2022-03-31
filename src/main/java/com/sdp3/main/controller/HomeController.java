@@ -114,7 +114,7 @@ public class HomeController {
 		session.setAttribute("otp", otp);
 		session.setAttribute("email", toEmail);
 		model.addAttribute("title", "Email Verification");
-		return "redirect:/verifyEmail";
+		return "redirect:/signin";
 	}
 
 	public String getOTP() {
